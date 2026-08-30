@@ -1,10 +1,10 @@
-package auyesbay.dev.paymentservice.api;
+package auyesbay.dev.commonlibs.http.payment;
 
-import auyesbay.dev.paymentservice.domain.PaymentMethod;
-import auyesbay.dev.paymentservice.domain.PaymentStatus;
+import lombok.Builder;
 
 import java.math.BigDecimal;
 
+@Builder
 public record CreatePaymentRequestDto(
         Long orderId,
         BigDecimal amount,

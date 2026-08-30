@@ -1,4 +1,4 @@
-package auyesbay.dev.paymentservice.domain;
+package auyesbay.dev.paymentservice.domain.db;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package auyesbay.dev.orderservice.domain;
+package auyesbay.dev.orderservice.domain.db;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -39,7 +39,7 @@ public class OrderEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "order_status", nullable = false)
-    private OrderStatus orderStatus;
+    private auyesbay.dev.commonlibs.http.order.OrderStatus orderStatus;
 
     @OneToMany(mappedBy = "order", cascade = CascadeType.PERSIST)
     private Set<OrderItemEntity> items = new LinkedHashSet<>();

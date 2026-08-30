@@ -1,4 +1,4 @@
-package auyesbay.dev.orderservice.domain;
+package auyesbay.dev.orderservice.domain.db;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
