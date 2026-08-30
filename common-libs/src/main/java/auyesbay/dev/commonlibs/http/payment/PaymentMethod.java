@@ -1,4 +1,4 @@
-package auyesbay.dev.paymentservice.domain;
+package auyesbay.dev.commonlibs.http.payment;
 
 public enum PaymentMethod {
     CARD,

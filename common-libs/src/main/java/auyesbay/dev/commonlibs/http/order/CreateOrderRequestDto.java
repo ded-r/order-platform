@@ -1,4 +1,4 @@
-package auyesbay.dev.orderservice.api;
+package auyesbay.dev.commonlibs.http.order;
 
 
 import java.util.Set;

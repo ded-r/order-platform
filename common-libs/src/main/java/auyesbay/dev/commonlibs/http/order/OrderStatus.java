@@ -1,4 +1,4 @@
-package auyesbay.dev.orderservice.domain;
+package auyesbay.dev.commonlibs.http.order;
 
 public enum OrderStatus {
     PAID,

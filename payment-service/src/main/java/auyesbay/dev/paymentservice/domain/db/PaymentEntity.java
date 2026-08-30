@@ -1,5 +1,6 @@
-package auyesbay.dev.paymentservice.domain;
+package auyesbay.dev.paymentservice.domain.db;
 
+import auyesbay.dev.commonlibs.http.payment.PaymentMethod;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -28,7 +29,7 @@ public class PaymentEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "payment_status", nullable = false)
-    private PaymentStatus paymentStatus;
+    private auyesbay.dev.commonlibs.http.payment.PaymentStatus paymentStatus;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "payment_method", nullable = false)

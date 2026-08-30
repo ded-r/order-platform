@@ -1,6 +1,7 @@
-package auyesbay.dev.paymentservice.api;
+package auyesbay.dev.paymentservice.domain.db;
 
-import auyesbay.dev.paymentservice.domain.PaymentEntity;
+import auyesbay.dev.commonlibs.http.payment.CreatePaymentRequestDto;
+import auyesbay.dev.commonlibs.http.payment.CreatePaymentResponseDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;

@@ -1,7 +1,4 @@
-package auyesbay.dev.paymentservice.api;
-
-import auyesbay.dev.paymentservice.domain.PaymentMethod;
-import auyesbay.dev.paymentservice.domain.PaymentStatus;
+package auyesbay.dev.commonlibs.http.payment;
 
 import java.math.BigDecimal;
 

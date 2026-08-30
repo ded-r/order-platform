@@ -1,7 +1,7 @@
-package auyesbay.dev.orderservice.domain;
+package auyesbay.dev.orderservice.domain.db;
 
-import auyesbay.dev.orderservice.api.CreateOrderRequestDto;
-import auyesbay.dev.orderservice.api.OrderDto;
+import auyesbay.dev.commonlibs.http.order.CreateOrderRequestDto;
+import auyesbay.dev.commonlibs.http.order.OrderDto;
 import org.mapstruct.*;
 
 @Mapper(
