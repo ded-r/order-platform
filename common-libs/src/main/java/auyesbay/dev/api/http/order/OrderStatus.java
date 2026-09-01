@@ -1,9 +1,9 @@
-package auyesbay.dev.commonlibs.http.order;
+package auyesbay.dev.api.http.order;
 
 public enum OrderStatus {
     PAID,
     PENDING_PAYMENT,
     PAYMENT_FAILED,
-    PENDING_DELIVERY,
+    DELIVERY_ASSIGNED,
     DELIVERED
 }

@@ -1,4 +1,4 @@
-package auyesbay.dev.commonlibs.http.order;
+package auyesbay.dev.api.http.order;
 
 import java.math.BigDecimal;
 import java.util.Set;

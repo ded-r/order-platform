@@ -1,12 +1,12 @@
 package auyesbay.dev.paymentservice.domain;
 
-import auyesbay.dev.commonlibs.http.payment.CreatePaymentRequestDto;
-import auyesbay.dev.commonlibs.http.payment.CreatePaymentResponseDto;
+import auyesbay.dev.api.http.payment.CreatePaymentRequestDto;
+import auyesbay.dev.api.http.payment.CreatePaymentResponseDto;
+import auyesbay.dev.api.http.payment.PaymentMethod;
+import auyesbay.dev.api.http.payment.PaymentStatus;
 import auyesbay.dev.paymentservice.domain.db.PaymentEntity;
 import auyesbay.dev.paymentservice.domain.db.PaymentEntityMapper;
 import auyesbay.dev.paymentservice.domain.db.PaymentEntityRepository;
-import auyesbay.dev.commonlibs.http.payment.PaymentMethod;
-import auyesbay.dev.commonlibs.http.payment.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

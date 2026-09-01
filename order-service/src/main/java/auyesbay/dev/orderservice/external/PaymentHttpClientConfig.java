@@ -20,7 +20,6 @@ public class PaymentHttpClientConfig {
                 .build();
     }
 
-
     @Bean
     PaymentHttpClient paymentHttpClient(RestClient restClient) {
         return HttpServiceProxyFactory.builder()

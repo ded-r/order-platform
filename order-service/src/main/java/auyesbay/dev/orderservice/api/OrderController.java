@@ -1,7 +1,7 @@
 package auyesbay.dev.orderservice.api;
 
-import auyesbay.dev.commonlibs.http.order.CreateOrderRequestDto;
-import auyesbay.dev.commonlibs.http.order.OrderDto;
+import auyesbay.dev.api.http.order.CreateOrderRequestDto;
+import auyesbay.dev.api.http.order.OrderDto;
 import auyesbay.dev.orderservice.domain.OrderPaymentRequest;
 import auyesbay.dev.orderservice.domain.db.OrderEntity;
 import auyesbay.dev.orderservice.domain.db.OrderEntityMapper;

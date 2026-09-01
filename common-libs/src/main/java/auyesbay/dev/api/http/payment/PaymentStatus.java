@@ -1,4 +1,4 @@
-package auyesbay.dev.commonlibs.http.payment;
+package auyesbay.dev.api.http.payment;
 
 public enum PaymentStatus {
     PAYMENT_SUCCEEDED,
